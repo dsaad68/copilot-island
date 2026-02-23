@@ -1,0 +1,11 @@
+{
+  "name": "copilot-island",
+  "description": "Dynamic Island-style session monitor for GitHub Copilot CLI on macOS",
+  "version": "0.2.1",
+  "author": {
+    "name": "Daniel Saad"
+  },
+  "license": "MIT",
+  "keywords": ["monitor", "notch", "dynamic-island", "macos", "session"],
+  "hooks": "hooks.json"
+}

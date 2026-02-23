@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "command",
+        "bash": "./scripts/on-pre-tool.sh",
+        "timeoutSec": 300
+      }
+    ],
+    "sessionEnd": [
+      {
+        "type": "command",
+        "bash": "./scripts/on-session-end.sh",
+        "timeoutSec": 5
+      }
+    ]
+  }
+}

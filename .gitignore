@@ -1,0 +1,6 @@
+opencode.jsonc
+build/
+
+# Claude / MCP
+.claude
+.mcp.json
